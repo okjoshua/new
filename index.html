@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Begining of navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#jonavcollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    <div class="collapse navbar-collapse" id="jonavcollapse">
+
+<a href="" class="navbar-brand"><img src="./images/npower.jpeg" alt=""></a>
+        <span class="navbar-text">Jolcorp Tech</span>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+         
+            <li class="nav-item">
+                <a class="nav-link" href="">Who we are</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="#jodropdown" href="services.html">Services</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="">Web Design and <br> Development</a>
+               <div class="dropdown-divider" aria-labelledby="jodropdown"></div>
+                    <a class="dropdown-item" href="">Web Hosting</a>
+               <div class="dropdown-divider" aria-labelledby="jodropdown"></div>
+                    <a class="dropdown-item" href="">E-Commerce</a>
+               <div class="dropdown-divider" aria-labelledby="jodropdown"></div>
+                    <a class="dropdown-item" href="">Digital Marketing</a>
+               <div class="dropdown-divider" aria-labelledby="jodropdown"></div>
+                    <a class="dropdown-item" href="">Advertisement</a>
+                </div>
+           </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="">Contact</a>
+                
+            </li>
+        </ul>
+    </div>
+    </nav>
+    <!-- End of navbar -->
+
+    <div class="caption1">
+        <h2>Welcome to the Best </h2>
+        <h4>it tech solutions firm <br>
+        web design and development <br>
+        digital marketing </h4>
+        <a class="btn btn-outline-dark btn-lg" href="services.html"><strong>Our Services</strong></a>
+    </div>
+    
+
+    <!-- BEGIN SLIDE SHOW AND CAROUSEL -->
+
+    <div class="carousel slide" data-ride="carousel" data-interval="3000" id="joslide">
+
+        <!-- three dash at the slide begin  -->
+        <ol class="carousel-indicators">
+            <li class="active" data-slide-to="0">
+            </li>
+            <li data-slide-to="1" data-target="joslide">
+            </li>
+            <li data-slide-to="2" data-target="joslide">
+            </li>
+        </ol>
+       <!-- three dash at the slide end  -->  
+
+       <!-- begin of slide image and the previous and next button  -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/first pic.jpg" class="d-block w-100 joimage" alt="">
+          
+            </div>
+        
+        <div class="carousel-item">
+                <img src="./images/second image.jpg" class="d-block w-100 joimage" alt="">
+        <!-- the write up inside the pics begin          -->
+            
+         <!-- the write up inside the pics end          -->
+        </div>
+
+        <div class="carousel-item">
+                <img src="./images/third pic.jpg" class="d-block w-100 joimage" alt="">
+         
+        </div>
+
+        </div>
+        <a href="#joslide" class="carousel-control-prev" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">previous</span> 
+        </a>
+        <a href="#joslide" class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">previous</span> 
+            </a>
+    </div>
+
+   <!-- begin of slide image and the previous and next button  -->
+
+
+    <!-- end of slide show -->
+
+    <!-- begin of column  -->
+
+    <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="jocolumn1">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" style="color: green;"> </h5>
+                        <p>Digital Marketing and E Commerce</p>
+                        <button class= "close" data-dismiss= "modal" aria-label="close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                    </div>
+            
+                </div>
+            </div>
+
+    <div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="jocolumn2">
+     <div class="modal-dialog" role="document">
+        <div class="modal-content">
+      <div class="modal-header">
+           <p class="modal-title" style="color: black;">
+            We Create, design and host websites
+               </p>
+        <button class= "close" data-dismiss= "modal" aria-label="close">
+     <span aria-hidden="true">&times;</span>
+        </button>
+ </div>
+</div>
+                    
+</div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" aria-hidden="true" id="jocolumn3">
+    <div class="modal-dialog" role="document">
+       <div class="modal-content">
+     <div class="modal-header">
+          <p class="modal-title" style="color: black;">
+            Software Development 
+              </p>
+       <button class= "close" data-dismiss= "modal" aria-label="close">
+    <span aria-hidden="true">&times;</span>
+       </button>
+</div>
+</div>
+                   
+</div>
+</div>
+
+    <h3 class="josubhead" style="text-align: center; color: green; font-family: 'Times New Roman', Times, serif;">
+        <strong>Products and Services</strong></h3>
+        <hr>
+
+    
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-4">
+                   <div class="spacing">
+                       <img src="./images/nb.png" alt="">
+                       <p style="text-align:justify"><h4><strong>Web Design & Development</strong></h4>
+                 </p>
+                 <p>Create a professional website for free with the Website.com website builder. 
+                     Domain names, web hosting, website templates, and ecommerce solutions.. 
+                    </p>
+                <button class="btn btn-outline-dark" data-target="#jocolumn2" data-toggle="modal">See more</button>
+                   </div>
+                </div>
+                
+                <div class="col-4">
+                    <div class="spacing">
+                        <img src="./images/software1.jpg" alt="">
+                        <p style="text-align:justify"><h4> <strong> Digital Marketing and E Commerce </strong> </h4> 
+                    </p>
+                    <p>Google Ads</p>
+                    <p>Google Digital Marketing</p>
+                    <p>Facebook ads etc....</p>
+                    <button class="btn btn-outline-dark" data-target="#jocolumn1" data-toggle="modal">See more</button>
+                       </div>
+                    </div>
+                <div class="col-4">
+                    <div class="spacing">
+                    <img src="./images/n-teach.jpg" alt="">
+                    <p style="text-align:justify"><h4> <strong>Software Development</strong> </h4>  
+                    </p>
+                    <p>App development</p>
+                    <p>Mobile App</p>
+                    <p>React App...</p>
+                    <button class="btn btn-outline-dark" data-target="#jocolumn3" data-toggle="modal">See more</button>
+                    </div>
+                </div>
+               
+            </div>
+ <footer>
+     <div class="row justify-content-center">
+         <div class="col-md-5 text-center">
+             <h3>Jolcorp</h3>
+             <p>
+                 Our core aim is to provide solution that represent your business wants to compete in global market.
+                 We provide original tech solutions. <br>
+                 <strong>Contact Info</strong> <br>
+                 Tel: 08097575479
+                 <br>
+                 Email: okechukwu.ibekwe@yahoo.com <br>
+                 7 Joshua Avenue, GRA Aba South, Abia State
+    
+             </p>
+
+
+         </div>
+
+         <hr class="socket">
+         &copy; Jolcorp
+     </div>
+ </footer>
+</body>
+</html>
